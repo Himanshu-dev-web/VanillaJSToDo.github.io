@@ -1,0 +1,117 @@
+html{
+height: 100vh;
+min-width: 600px;
+background-image: linear-gradient(120deg, #fff8eec4, #435666);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.container{
+width: 600px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+margin: auto;
+font-family: 'Raleway', sans-serif;
+
+}
+
+#logo{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    max-width: 500px;
+    padding:1.5rem  0;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Syne Mono', monospace;
+    font-size: 40px;
+}
+
+.main
+{
+   padding: 25px;
+}
+
+form{
+    background-color: aliceblue;
+    padding: 2px;
+    border-radius: flex;
+    display: flex;
+    border-radius: 5px;
+}
+
+input[type="text"]{
+    height:35px;
+    outline: 0;
+    border:none;
+    font-size: 1rem;
+    font-family: 'Raleway',sans-serif;
+    flex-grow: 1;
+}   
+
+button{
+    font-size: 1.5rem;
+    background-color:#ffffff;
+    border: none;
+}
+
+button:hover{
+    color: #dcdfe2;
+    background: #9ba3aa;
+    box-shadow: 0 0 10px #9c9393, 0 0 40px #968c8c, 0 0 80px #887c7c;
+    transition: all 0.4s ease-out;
+}
+
+.todolist{
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-top: 15px;
+    /* padding:5px 5px ; */
+    height: 100%;
+
+   
+}
+
+ul{
+    padding: 0px;
+    list-style: none;
+
+}
+
+li{
+    display: flex;
+    align-items:center;
+    border-bottom: 1px solid lightslategray;
+    padding: 20px;
+    font-size: 1rem;
+    color: #636060;
+}
+
+i{
+    pointer-events: none;
+}
+.todo-item{
+    flex-grow: 1;
+}
+
+#ClearAll{
+    display: flex;
+    justify-content: flex-end;
+    padding: 7px 14px;
+    cursor: pointer;
+    font: 0.9rem;
+}
+#ClearAll:hover{
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition: all 1s ease-out; 
+}
+
+.todo-list-item{
+    transition: all 0.3s ease-out;
+}
+.todo-list-item-fall{
+    transform: translatey(12rem) rotateZ(10deg);
+    opacity: 0;
+}
